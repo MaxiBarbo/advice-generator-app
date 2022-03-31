@@ -5,7 +5,7 @@ function Imagen (){
 
     return(
         <>
-        <img className="patternD"/>
+            <div className="patternD"/>
         </>
     )
 }

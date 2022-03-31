@@ -29,9 +29,11 @@ export const Advice = () => {
         {advice ? (
           <Card>
               <p className="adviceid">ADVICE #{advice.slip.id}</p>
-              <p className="text">"{advice.slip.advice}"</p>
-              <Imagen/>
-              <ButtonClick advice={fetchAdvice}></ButtonClick>
+              <div className='adviceText'>
+                <p className="text">"{advice.slip.advice}"</p>
+                  </div>
+              <Imagen/>    
+              <ButtonClick advice={fetchAdvice}/>
             </Card>
         ) : null}
       </div>
