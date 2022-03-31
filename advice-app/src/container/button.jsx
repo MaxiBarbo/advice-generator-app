@@ -7,7 +7,7 @@ const ButtonClick = ({ advice }) => {
         <>
             <div>
                 <button className="button" onClick={advice}>
-                    <img src={btnAdvice}/>
+                    <img src={btnAdvice} alt=''/>
                 </button>
             </div>
 
